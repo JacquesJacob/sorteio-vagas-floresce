@@ -86,6 +86,8 @@ INICIAR-SORTEIO-WINDOWS.bat
 
 ## Como compartilhar com outra pessoa
 
+Se a ideia for baixar pelo GitHub e entregar algo pronto para Windows, prefira a `Release` com o pacote portatil.
+
 Para gerar um pacote `.zip` pronto para envio:
 
 ```bash
@@ -128,10 +130,9 @@ No pacote Windows portatil, a pasta `runtime/` ja vai preenchida com o runtime o
 
 Observacao importante desta V1:
 
-- o computador que vai receber o sistema ainda precisa ter `Node.js` instalado
+- no pacote simples, o computador que vai receber o sistema ainda precisa ter `Node.js` instalado
+- no pacote Windows portatil, isso nao e necessario
 - depois de iniciar o sistema, basta abrir `http://localhost:3030`
-
-Se voce quiser, o proximo passo pode ser empacotar como um executavel de verdade por sistema operacional, para a pessoa abrir sem instalar Node.
 
 ## Persistencia
 

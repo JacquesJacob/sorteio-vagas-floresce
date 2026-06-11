@@ -1,0 +1,39 @@
+name: Windows Portable Package
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build-windows-portable:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Windows portable package
+        run: |
+          chmod +x build-windows-portable-package.sh
+          ./build-windows-portable-package.sh
+
+      - name: Resolve generated zip
+        id: package
+        run: |
+          ZIP_PATH="$(find dist -maxdepth 1 -type f -name 'sistema-sorteio-vagas-floresce-windows-portatil-*.zip' | sort | tail -n 1)"
+          echo "zip_path=$ZIP_PATH" >> "$GITHUB_OUTPUT"
+          echo "zip_name=$(basename "$ZIP_PATH")" >> "$GITHUB_OUTPUT"
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-portable-package
+          path: ${{ steps.package.outputs.zip_path }}
+
+      - name: Upload release asset
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ steps.package.outputs.zip_path }}
