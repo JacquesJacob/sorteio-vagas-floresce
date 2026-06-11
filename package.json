@@ -1,0 +1,9 @@
+{
+  "name": "sorteio-vagas-floresce",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sistema offline para sorteio de vagas do Condominio Floresce",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

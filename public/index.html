@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Sorteio de Vagas</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="draw-modal" id="draw-modal" hidden>
+      <div class="draw-modal-backdrop"></div>
+      <div class="draw-modal-card" role="dialog" aria-modal="true" aria-labelledby="draw-modal-title">
+        <p class="draw-modal-kicker">Sorteio em andamento</p>
+        <h2 id="draw-modal-title">Preparando sorteio</h2>
+        <div class="draw-modal-current">
+          <strong id="draw-modal-lot">Lote --</strong>
+          <span id="draw-modal-apartment">Aguardando primeiro resultado...</span>
+        </div>
+        <div class="draw-modal-progress">
+          <div class="draw-modal-progress-bar">
+            <div class="draw-modal-progress-fill" id="draw-modal-progress-fill"></div>
+          </div>
+          <div class="draw-modal-progress-meta">
+            <strong id="draw-modal-percent">0%</strong>
+            <span id="draw-modal-counter">0 de 308 lotes</span>
+          </div>
+        </div>
+        <p class="draw-modal-eta" id="draw-modal-eta">Tempo restante estimado: calculando...</p>
+        <p class="draw-modal-note" id="draw-modal-note">
+          O sorteio ja foi salvo no banco local e esta sendo exibido lote por lote.
+        </p>
+        <div class="draw-modal-actions">
+          <button type="button" class="secondary speed-button" id="draw-speed-2x-button">
+            Acelerar 2x
+          </button>
+          <button type="button" class="secondary speed-button" id="draw-speed-4x-button">
+            Acelerar 4x
+          </button>
+          <button type="button" class="secondary danger-button" id="draw-modal-cancel-button">
+            Cancelar sorteio
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="edit-modal" id="edit-modal" hidden>
+      <div class="edit-modal-backdrop"></div>
+      <div class="edit-modal-card" role="dialog" aria-modal="true" aria-labelledby="edit-modal-title">
+        <h2 id="edit-modal-title">Editar apartamento</h2>
+        <form id="edit-apartment-form" class="stack">
+          <label>
+            Bloco
+            <input name="block" required />
+          </label>
+          <label>
+            Numero do apartamento
+            <input name="number" required />
+          </label>
+          <div class="edit-modal-actions">
+            <button type="button" class="secondary" id="edit-cancel-button">Cancelar</button>
+            <button type="submit" class="draw-button compact-button">Salvar alteracoes</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <main class="shell">
+      <header class="hero">
+        <div class="hero-copy-wrap">
+          <p class="eyebrow">Condominio Floresce</p>
+          <h1>Sistema de Sorteio de Vagas</h1>
+          <p class="hero-copy">
+            Sorteio offline, auditavel e direto ao ponto. Um clique inicia a animacao do sorteio e revela aos poucos qual apartamento ficou com cada lote.
+          </p>
+          <div class="hero-tags">
+            <span>Offline</span>
+            <span>Sem login</span>
+            <span>308 lotes</span>
+            <span>2 vagas por lote</span>
+          </div>
+        </div>
+
+        <div class="hero-panel spotlight">
+          <div class="spotlight-kicker">Painel principal</div>
+          <div class="spotlight-status" id="status-badge">Carregando...</div>
+          <div class="lottery-machine" id="lottery-machine" aria-live="polite">
+            <div class="machine-glow"></div>
+            <div class="machine-window">
+              <div class="machine-reel" id="machine-reel">
+                <span>Pronto para sortear</span>
+              </div>
+            </div>
+            <div class="machine-footer">
+              <strong id="machine-title">Aguardando inicio</strong>
+              <span id="machine-subtitle">Clique no botao para rodar o sorteio automatico.</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="stats" id="stats"></section>
+
+      <section class="grid">
+        <article class="panel action-panel">
+          <div class="section-header">
+            <div>
+              <h2>Iniciar sorteio</h2>
+              <p class="muted action-copy">
+                Clique no botao e o sistema sorteia, salva no banco local e registra toda a auditoria automaticamente.
+              </p>
+            </div>
+          </div>
+          <form id="draw-form" class="stack">
+            <button type="submit" class="draw-button" id="draw-button">
+              <span class="draw-button-text">Sortear e registrar</span>
+              <span class="draw-button-pulse"></span>
+            </button>
+            <details class="advanced-options">
+              <summary>Opcoes avancadas de auditoria</summary>
+              <label>
+                Seed de auditoria
+                <input name="seed" placeholder="Opcional. Se vazio, o sistema gera uma seed automaticamente." />
+              </label>
+            </details>
+          </form>
+          <div id="draw-summary" class="result-card empty">Nenhum sorteio executado ainda.</div>
+        </article>
+
+        <article class="panel">
+          <div class="section-header">
+            <h2>Configuracao do condominio</h2>
+            <button class="secondary" id="clear-history">Limpar historico</button>
+          </div>
+          <div id="config-summary" class="stack summary-stack"></div>
+        </article>
+      </section>
+
+      <section class="grid">
+        <article class="panel">
+          <h2>Previa dos apartamentos</h2>
+          <div class="table-wrap preview-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Bloco</th>
+                  <th>Andar</th>
+                  <th>Apartamento</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="apartments-body"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel">
+          <h2>Historico</h2>
+          <div id="history-list" class="history-list"></div>
+        </article>
+      </section>
+
+      <section class="panel results-panel">
+        <div class="section-header">
+          <div>
+            <h2>Resultado mais recente</h2>
+            <p class="muted results-copy">Os resultados sao exibidos lote a lote no popup e registrados no historico local.</p>
+          </div>
+          <div class="section-actions">
+            <button class="secondary" id="download-results-csv" disabled>Exportar CSV</button>
+            <button class="secondary" id="download-results-excel" disabled>Exportar Excel</button>
+            <button class="secondary" id="download-audit" disabled>Baixar auditoria JSON</button>
+          </div>
+        </div>
+        <div class="table-wrap result-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Lote</th>
+                <th>Apartamento</th>
+                <th>Bloco</th>
+                <th>Andar</th>
+              </tr>
+            </thead>
+            <tbody id="results-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <template id="stat-card-template">
+      <article class="stat-card">
+        <span class="stat-label"></span>
+        <strong class="stat-value"></strong>
+      </article>
+    </template>
+
+    <script src="/app.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,1874 @@
+{
+  "condominiumName": "Condominio Floresce",
+  "floorsPerBlock": 22,
+  "apartmentLabelPattern": "Bloco + numero do apartamento (ex.: 11, 22, 191, 222)",
+  "blocks": [
+    {
+      "name": "Jacarandá",
+      "apartmentCount": 103
+    },
+    {
+      "name": "Ipê",
+      "apartmentCount": 103
+    },
+    {
+      "name": "Cedro",
+      "apartmentCount": 102
+    }
+  ],
+  "assumptions": [
+    "Esta V1 distribui os 308 apartamentos automaticamente entre os 22 andares de cada bloco.",
+    "Jacarandá e Ipê foram configurados com 103 apartamentos cada, e Cedro com 102, para totalizar 308.",
+    "Se o condominio tiver codigos reais dos apartamentos, esta configuracao pode ser trocada por uma lista explicita."
+  ],
+  "apartments": [
+    {
+      "id": "jacarandá-01-01",
+      "label": "Jacarandá 11",
+      "block": "Jacarandá",
+      "floor": 1
+    },
+    {
+      "id": "jacarandá-01-02",
+      "label": "Jacarandá 12",
+      "block": "Jacarandá",
+      "floor": 1
+    },
+    {
+      "id": "jacarandá-01-03",
+      "label": "Jacarandá 13",
+      "block": "Jacarandá",
+      "floor": 1
+    },
+    {
+      "id": "jacarandá-01-04",
+      "label": "Jacarandá 14",
+      "block": "Jacarandá",
+      "floor": 1
+    },
+    {
+      "id": "jacarandá-01-05",
+      "label": "Jacarandá 15",
+      "block": "Jacarandá",
+      "floor": 1
+    },
+    {
+      "id": "jacarandá-02-01",
+      "label": "Jacarandá 21",
+      "block": "Jacarandá",
+      "floor": 2
+    },
+    {
+      "id": "jacarandá-02-02",
+      "label": "Jacarandá 22",
+      "block": "Jacarandá",
+      "floor": 2
+    },
+    {
+      "id": "jacarandá-02-03",
+      "label": "Jacarandá 23",
+      "block": "Jacarandá",
+      "floor": 2
+    },
+    {
+      "id": "jacarandá-02-04",
+      "label": "Jacarandá 24",
+      "block": "Jacarandá",
+      "floor": 2
+    },
+    {
+      "id": "jacarandá-02-05",
+      "label": "Jacarandá 25",
+      "block": "Jacarandá",
+      "floor": 2
+    },
+    {
+      "id": "jacarandá-03-01",
+      "label": "Jacarandá 31",
+      "block": "Jacarandá",
+      "floor": 3
+    },
+    {
+      "id": "jacarandá-03-02",
+      "label": "Jacarandá 32",
+      "block": "Jacarandá",
+      "floor": 3
+    },
+    {
+      "id": "jacarandá-03-03",
+      "label": "Jacarandá 33",
+      "block": "Jacarandá",
+      "floor": 3
+    },
+    {
+      "id": "jacarandá-03-04",
+      "label": "Jacarandá 34",
+      "block": "Jacarandá",
+      "floor": 3
+    },
+    {
+      "id": "jacarandá-03-05",
+      "label": "Jacarandá 35",
+      "block": "Jacarandá",
+      "floor": 3
+    },
+    {
+      "id": "jacarandá-04-01",
+      "label": "Jacarandá 41",
+      "block": "Jacarandá",
+      "floor": 4
+    },
+    {
+      "id": "jacarandá-04-02",
+      "label": "Jacarandá 42",
+      "block": "Jacarandá",
+      "floor": 4
+    },
+    {
+      "id": "jacarandá-04-03",
+      "label": "Jacarandá 43",
+      "block": "Jacarandá",
+      "floor": 4
+    },
+    {
+      "id": "jacarandá-04-04",
+      "label": "Jacarandá 44",
+      "block": "Jacarandá",
+      "floor": 4
+    },
+    {
+      "id": "jacarandá-04-05",
+      "label": "Jacarandá 45",
+      "block": "Jacarandá",
+      "floor": 4
+    },
+    {
+      "id": "jacarandá-05-01",
+      "label": "Jacarandá 51",
+      "block": "Jacarandá",
+      "floor": 5
+    },
+    {
+      "id": "jacarandá-05-02",
+      "label": "Jacarandá 52",
+      "block": "Jacarandá",
+      "floor": 5
+    },
+    {
+      "id": "jacarandá-05-03",
+      "label": "Jacarandá 53",
+      "block": "Jacarandá",
+      "floor": 5
+    },
+    {
+      "id": "jacarandá-05-04",
+      "label": "Jacarandá 54",
+      "block": "Jacarandá",
+      "floor": 5
+    },
+    {
+      "id": "jacarandá-05-05",
+      "label": "Jacarandá 55",
+      "block": "Jacarandá",
+      "floor": 5
+    },
+    {
+      "id": "jacarandá-06-01",
+      "label": "Jacarandá 61",
+      "block": "Jacarandá",
+      "floor": 6
+    },
+    {
+      "id": "jacarandá-06-02",
+      "label": "Jacarandá 62",
+      "block": "Jacarandá",
+      "floor": 6
+    },
+    {
+      "id": "jacarandá-06-03",
+      "label": "Jacarandá 63",
+      "block": "Jacarandá",
+      "floor": 6
+    },
+    {
+      "id": "jacarandá-06-04",
+      "label": "Jacarandá 64",
+      "block": "Jacarandá",
+      "floor": 6
+    },
+    {
+      "id": "jacarandá-06-05",
+      "label": "Jacarandá 65",
+      "block": "Jacarandá",
+      "floor": 6
+    },
+    {
+      "id": "jacarandá-07-01",
+      "label": "Jacarandá 71",
+      "block": "Jacarandá",
+      "floor": 7
+    },
+    {
+      "id": "jacarandá-07-02",
+      "label": "Jacarandá 72",
+      "block": "Jacarandá",
+      "floor": 7
+    },
+    {
+      "id": "jacarandá-07-03",
+      "label": "Jacarandá 73",
+      "block": "Jacarandá",
+      "floor": 7
+    },
+    {
+      "id": "jacarandá-07-04",
+      "label": "Jacarandá 74",
+      "block": "Jacarandá",
+      "floor": 7
+    },
+    {
+      "id": "jacarandá-07-05",
+      "label": "Jacarandá 75",
+      "block": "Jacarandá",
+      "floor": 7
+    },
+    {
+      "id": "jacarandá-08-01",
+      "label": "Jacarandá 81",
+      "block": "Jacarandá",
+      "floor": 8
+    },
+    {
+      "id": "jacarandá-08-02",
+      "label": "Jacarandá 82",
+      "block": "Jacarandá",
+      "floor": 8
+    },
+    {
+      "id": "jacarandá-08-03",
+      "label": "Jacarandá 83",
+      "block": "Jacarandá",
+      "floor": 8
+    },
+    {
+      "id": "jacarandá-08-04",
+      "label": "Jacarandá 84",
+      "block": "Jacarandá",
+      "floor": 8
+    },
+    {
+      "id": "jacarandá-08-05",
+      "label": "Jacarandá 85",
+      "block": "Jacarandá",
+      "floor": 8
+    },
+    {
+      "id": "jacarandá-09-01",
+      "label": "Jacarandá 91",
+      "block": "Jacarandá",
+      "floor": 9
+    },
+    {
+      "id": "jacarandá-09-02",
+      "label": "Jacarandá 92",
+      "block": "Jacarandá",
+      "floor": 9
+    },
+    {
+      "id": "jacarandá-09-03",
+      "label": "Jacarandá 93",
+      "block": "Jacarandá",
+      "floor": 9
+    },
+    {
+      "id": "jacarandá-09-04",
+      "label": "Jacarandá 94",
+      "block": "Jacarandá",
+      "floor": 9
+    },
+    {
+      "id": "jacarandá-09-05",
+      "label": "Jacarandá 95",
+      "block": "Jacarandá",
+      "floor": 9
+    },
+    {
+      "id": "jacarandá-10-01",
+      "label": "Jacarandá 101",
+      "block": "Jacarandá",
+      "floor": 10
+    },
+    {
+      "id": "jacarandá-10-02",
+      "label": "Jacarandá 102",
+      "block": "Jacarandá",
+      "floor": 10
+    },
+    {
+      "id": "jacarandá-10-03",
+      "label": "Jacarandá 103",
+      "block": "Jacarandá",
+      "floor": 10
+    },
+    {
+      "id": "jacarandá-10-04",
+      "label": "Jacarandá 104",
+      "block": "Jacarandá",
+      "floor": 10
+    },
+    {
+      "id": "jacarandá-10-05",
+      "label": "Jacarandá 105",
+      "block": "Jacarandá",
+      "floor": 10
+    },
+    {
+      "id": "jacarandá-11-01",
+      "label": "Jacarandá 111",
+      "block": "Jacarandá",
+      "floor": 11
+    },
+    {
+      "id": "jacarandá-11-02",
+      "label": "Jacarandá 112",
+      "block": "Jacarandá",
+      "floor": 11
+    },
+    {
+      "id": "jacarandá-11-03",
+      "label": "Jacarandá 113",
+      "block": "Jacarandá",
+      "floor": 11
+    },
+    {
+      "id": "jacarandá-11-04",
+      "label": "Jacarandá 114",
+      "block": "Jacarandá",
+      "floor": 11
+    },
+    {
+      "id": "jacarandá-11-05",
+      "label": "Jacarandá 115",
+      "block": "Jacarandá",
+      "floor": 11
+    },
+    {
+      "id": "jacarandá-12-01",
+      "label": "Jacarandá 121",
+      "block": "Jacarandá",
+      "floor": 12
+    },
+    {
+      "id": "jacarandá-12-02",
+      "label": "Jacarandá 122",
+      "block": "Jacarandá",
+      "floor": 12
+    },
+    {
+      "id": "jacarandá-12-03",
+      "label": "Jacarandá 123",
+      "block": "Jacarandá",
+      "floor": 12
+    },
+    {
+      "id": "jacarandá-12-04",
+      "label": "Jacarandá 124",
+      "block": "Jacarandá",
+      "floor": 12
+    },
+    {
+      "id": "jacarandá-12-05",
+      "label": "Jacarandá 125",
+      "block": "Jacarandá",
+      "floor": 12
+    },
+    {
+      "id": "jacarandá-13-01",
+      "label": "Jacarandá 131",
+      "block": "Jacarandá",
+      "floor": 13
+    },
+    {
+      "id": "jacarandá-13-02",
+      "label": "Jacarandá 132",
+      "block": "Jacarandá",
+      "floor": 13
+    },
+    {
+      "id": "jacarandá-13-03",
+      "label": "Jacarandá 133",
+      "block": "Jacarandá",
+      "floor": 13
+    },
+    {
+      "id": "jacarandá-13-04",
+      "label": "Jacarandá 134",
+      "block": "Jacarandá",
+      "floor": 13
+    },
+    {
+      "id": "jacarandá-13-05",
+      "label": "Jacarandá 135",
+      "block": "Jacarandá",
+      "floor": 13
+    },
+    {
+      "id": "jacarandá-14-01",
+      "label": "Jacarandá 141",
+      "block": "Jacarandá",
+      "floor": 14
+    },
+    {
+      "id": "jacarandá-14-02",
+      "label": "Jacarandá 142",
+      "block": "Jacarandá",
+      "floor": 14
+    },
+    {
+      "id": "jacarandá-14-03",
+      "label": "Jacarandá 143",
+      "block": "Jacarandá",
+      "floor": 14
+    },
+    {
+      "id": "jacarandá-14-04",
+      "label": "Jacarandá 144",
+      "block": "Jacarandá",
+      "floor": 14
+    },
+    {
+      "id": "jacarandá-14-05",
+      "label": "Jacarandá 145",
+      "block": "Jacarandá",
+      "floor": 14
+    },
+    {
+      "id": "jacarandá-15-01",
+      "label": "Jacarandá 151",
+      "block": "Jacarandá",
+      "floor": 15
+    },
+    {
+      "id": "jacarandá-15-02",
+      "label": "Jacarandá 152",
+      "block": "Jacarandá",
+      "floor": 15
+    },
+    {
+      "id": "jacarandá-15-03",
+      "label": "Jacarandá 153",
+      "block": "Jacarandá",
+      "floor": 15
+    },
+    {
+      "id": "jacarandá-15-04",
+      "label": "Jacarandá 154",
+      "block": "Jacarandá",
+      "floor": 15
+    },
+    {
+      "id": "jacarandá-15-05",
+      "label": "Jacarandá 155",
+      "block": "Jacarandá",
+      "floor": 15
+    },
+    {
+      "id": "jacarandá-16-01",
+      "label": "Jacarandá 161",
+      "block": "Jacarandá",
+      "floor": 16
+    },
+    {
+      "id": "jacarandá-16-02",
+      "label": "Jacarandá 162",
+      "block": "Jacarandá",
+      "floor": 16
+    },
+    {
+      "id": "jacarandá-16-03",
+      "label": "Jacarandá 163",
+      "block": "Jacarandá",
+      "floor": 16
+    },
+    {
+      "id": "jacarandá-16-04",
+      "label": "Jacarandá 164",
+      "block": "Jacarandá",
+      "floor": 16
+    },
+    {
+      "id": "jacarandá-17-01",
+      "label": "Jacarandá 171",
+      "block": "Jacarandá",
+      "floor": 17
+    },
+    {
+      "id": "jacarandá-17-02",
+      "label": "Jacarandá 172",
+      "block": "Jacarandá",
+      "floor": 17
+    },
+    {
+      "id": "jacarandá-17-03",
+      "label": "Jacarandá 173",
+      "block": "Jacarandá",
+      "floor": 17
+    },
+    {
+      "id": "jacarandá-17-04",
+      "label": "Jacarandá 174",
+      "block": "Jacarandá",
+      "floor": 17
+    },
+    {
+      "id": "jacarandá-18-01",
+      "label": "Jacarandá 181",
+      "block": "Jacarandá",
+      "floor": 18
+    },
+    {
+      "id": "jacarandá-18-02",
+      "label": "Jacarandá 182",
+      "block": "Jacarandá",
+      "floor": 18
+    },
+    {
+      "id": "jacarandá-18-03",
+      "label": "Jacarandá 183",
+      "block": "Jacarandá",
+      "floor": 18
+    },
+    {
+      "id": "jacarandá-18-04",
+      "label": "Jacarandá 184",
+      "block": "Jacarandá",
+      "floor": 18
+    },
+    {
+      "id": "jacarandá-19-01",
+      "label": "Jacarandá 191",
+      "block": "Jacarandá",
+      "floor": 19
+    },
+    {
+      "id": "jacarandá-19-02",
+      "label": "Jacarandá 192",
+      "block": "Jacarandá",
+      "floor": 19
+    },
+    {
+      "id": "jacarandá-19-03",
+      "label": "Jacarandá 193",
+      "block": "Jacarandá",
+      "floor": 19
+    },
+    {
+      "id": "jacarandá-19-04",
+      "label": "Jacarandá 194",
+      "block": "Jacarandá",
+      "floor": 19
+    },
+    {
+      "id": "jacarandá-20-01",
+      "label": "Jacarandá 201",
+      "block": "Jacarandá",
+      "floor": 20
+    },
+    {
+      "id": "jacarandá-20-02",
+      "label": "Jacarandá 202",
+      "block": "Jacarandá",
+      "floor": 20
+    },
+    {
+      "id": "jacarandá-20-03",
+      "label": "Jacarandá 203",
+      "block": "Jacarandá",
+      "floor": 20
+    },
+    {
+      "id": "jacarandá-20-04",
+      "label": "Jacarandá 204",
+      "block": "Jacarandá",
+      "floor": 20
+    },
+    {
+      "id": "jacarandá-21-01",
+      "label": "Jacarandá 211",
+      "block": "Jacarandá",
+      "floor": 21
+    },
+    {
+      "id": "jacarandá-21-02",
+      "label": "Jacarandá 212",
+      "block": "Jacarandá",
+      "floor": 21
+    },
+    {
+      "id": "jacarandá-21-03",
+      "label": "Jacarandá 213",
+      "block": "Jacarandá",
+      "floor": 21
+    },
+    {
+      "id": "jacarandá-21-04",
+      "label": "Jacarandá 214",
+      "block": "Jacarandá",
+      "floor": 21
+    },
+    {
+      "id": "jacarandá-22-01",
+      "label": "Jacarandá 221",
+      "block": "Jacarandá",
+      "floor": 22
+    },
+    {
+      "id": "jacarandá-22-02",
+      "label": "Jacarandá 222",
+      "block": "Jacarandá",
+      "floor": 22
+    },
+    {
+      "id": "jacarandá-22-03",
+      "label": "Jacarandá 223",
+      "block": "Jacarandá",
+      "floor": 22
+    },
+    {
+      "id": "jacarandá-22-04",
+      "label": "Jacarandá 224",
+      "block": "Jacarandá",
+      "floor": 22
+    },
+    {
+      "id": "ipê-01-01",
+      "label": "Ipê 11",
+      "block": "Ipê",
+      "floor": 1
+    },
+    {
+      "id": "ipê-01-02",
+      "label": "Ipê 12",
+      "block": "Ipê",
+      "floor": 1
+    },
+    {
+      "id": "ipê-01-03",
+      "label": "Ipê 13",
+      "block": "Ipê",
+      "floor": 1
+    },
+    {
+      "id": "ipê-01-04",
+      "label": "Ipê 14",
+      "block": "Ipê",
+      "floor": 1
+    },
+    {
+      "id": "ipê-01-05",
+      "label": "Ipê 15",
+      "block": "Ipê",
+      "floor": 1
+    },
+    {
+      "id": "ipê-02-01",
+      "label": "Ipê 21",
+      "block": "Ipê",
+      "floor": 2
+    },
+    {
+      "id": "ipê-02-02",
+      "label": "Ipê 22",
+      "block": "Ipê",
+      "floor": 2
+    },
+    {
+      "id": "ipê-02-03",
+      "label": "Ipê 23",
+      "block": "Ipê",
+      "floor": 2
+    },
+    {
+      "id": "ipê-02-04",
+      "label": "Ipê 24",
+      "block": "Ipê",
+      "floor": 2
+    },
+    {
+      "id": "ipê-02-05",
+      "label": "Ipê 25",
+      "block": "Ipê",
+      "floor": 2
+    },
+    {
+      "id": "ipê-03-01",
+      "label": "Ipê 31",
+      "block": "Ipê",
+      "floor": 3
+    },
+    {
+      "id": "ipê-03-02",
+      "label": "Ipê 32",
+      "block": "Ipê",
+      "floor": 3
+    },
+    {
+      "id": "ipê-03-03",
+      "label": "Ipê 33",
+      "block": "Ipê",
+      "floor": 3
+    },
+    {
+      "id": "ipê-03-04",
+      "label": "Ipê 34",
+      "block": "Ipê",
+      "floor": 3
+    },
+    {
+      "id": "ipê-03-05",
+      "label": "Ipê 35",
+      "block": "Ipê",
+      "floor": 3
+    },
+    {
+      "id": "ipê-04-01",
+      "label": "Ipê 41",
+      "block": "Ipê",
+      "floor": 4
+    },
+    {
+      "id": "ipê-04-02",
+      "label": "Ipê 42",
+      "block": "Ipê",
+      "floor": 4
+    },
+    {
+      "id": "ipê-04-03",
+      "label": "Ipê 43",
+      "block": "Ipê",
+      "floor": 4
+    },
+    {
+      "id": "ipê-04-04",
+      "label": "Ipê 44",
+      "block": "Ipê",
+      "floor": 4
+    },
+    {
+      "id": "ipê-04-05",
+      "label": "Ipê 45",
+      "block": "Ipê",
+      "floor": 4
+    },
+    {
+      "id": "ipê-05-01",
+      "label": "Ipê 51",
+      "block": "Ipê",
+      "floor": 5
+    },
+    {
+      "id": "ipê-05-02",
+      "label": "Ipê 52",
+      "block": "Ipê",
+      "floor": 5
+    },
+    {
+      "id": "ipê-05-03",
+      "label": "Ipê 53",
+      "block": "Ipê",
+      "floor": 5
+    },
+    {
+      "id": "ipê-05-04",
+      "label": "Ipê 54",
+      "block": "Ipê",
+      "floor": 5
+    },
+    {
+      "id": "ipê-05-05",
+      "label": "Ipê 55",
+      "block": "Ipê",
+      "floor": 5
+    },
+    {
+      "id": "ipê-06-01",
+      "label": "Ipê 61",
+      "block": "Ipê",
+      "floor": 6
+    },
+    {
+      "id": "ipê-06-02",
+      "label": "Ipê 62",
+      "block": "Ipê",
+      "floor": 6
+    },
+    {
+      "id": "ipê-06-03",
+      "label": "Ipê 63",
+      "block": "Ipê",
+      "floor": 6
+    },
+    {
+      "id": "ipê-06-04",
+      "label": "Ipê 64",
+      "block": "Ipê",
+      "floor": 6
+    },
+    {
+      "id": "ipê-06-05",
+      "label": "Ipê 65",
+      "block": "Ipê",
+      "floor": 6
+    },
+    {
+      "id": "ipê-07-01",
+      "label": "Ipê 71",
+      "block": "Ipê",
+      "floor": 7
+    },
+    {
+      "id": "ipê-07-02",
+      "label": "Ipê 72",
+      "block": "Ipê",
+      "floor": 7
+    },
+    {
+      "id": "ipê-07-03",
+      "label": "Ipê 73",
+      "block": "Ipê",
+      "floor": 7
+    },
+    {
+      "id": "ipê-07-04",
+      "label": "Ipê 74",
+      "block": "Ipê",
+      "floor": 7
+    },
+    {
+      "id": "ipê-07-05",
+      "label": "Ipê 75",
+      "block": "Ipê",
+      "floor": 7
+    },
+    {
+      "id": "ipê-08-01",
+      "label": "Ipê 81",
+      "block": "Ipê",
+      "floor": 8
+    },
+    {
+      "id": "ipê-08-02",
+      "label": "Ipê 82",
+      "block": "Ipê",
+      "floor": 8
+    },
+    {
+      "id": "ipê-08-03",
+      "label": "Ipê 83",
+      "block": "Ipê",
+      "floor": 8
+    },
+    {
+      "id": "ipê-08-04",
+      "label": "Ipê 84",
+      "block": "Ipê",
+      "floor": 8
+    },
+    {
+      "id": "ipê-08-05",
+      "label": "Ipê 85",
+      "block": "Ipê",
+      "floor": 8
+    },
+    {
+      "id": "ipê-09-01",
+      "label": "Ipê 91",
+      "block": "Ipê",
+      "floor": 9
+    },
+    {
+      "id": "ipê-09-02",
+      "label": "Ipê 92",
+      "block": "Ipê",
+      "floor": 9
+    },
+    {
+      "id": "ipê-09-03",
+      "label": "Ipê 93",
+      "block": "Ipê",
+      "floor": 9
+    },
+    {
+      "id": "ipê-09-04",
+      "label": "Ipê 94",
+      "block": "Ipê",
+      "floor": 9
+    },
+    {
+      "id": "ipê-09-05",
+      "label": "Ipê 95",
+      "block": "Ipê",
+      "floor": 9
+    },
+    {
+      "id": "ipê-10-01",
+      "label": "Ipê 101",
+      "block": "Ipê",
+      "floor": 10
+    },
+    {
+      "id": "ipê-10-02",
+      "label": "Ipê 102",
+      "block": "Ipê",
+      "floor": 10
+    },
+    {
+      "id": "ipê-10-03",
+      "label": "Ipê 103",
+      "block": "Ipê",
+      "floor": 10
+    },
+    {
+      "id": "ipê-10-04",
+      "label": "Ipê 104",
+      "block": "Ipê",
+      "floor": 10
+    },
+    {
+      "id": "ipê-10-05",
+      "label": "Ipê 105",
+      "block": "Ipê",
+      "floor": 10
+    },
+    {
+      "id": "ipê-11-01",
+      "label": "Ipê 111",
+      "block": "Ipê",
+      "floor": 11
+    },
+    {
+      "id": "ipê-11-02",
+      "label": "Ipê 112",
+      "block": "Ipê",
+      "floor": 11
+    },
+    {
+      "id": "ipê-11-03",
+      "label": "Ipê 113",
+      "block": "Ipê",
+      "floor": 11
+    },
+    {
+      "id": "ipê-11-04",
+      "label": "Ipê 114",
+      "block": "Ipê",
+      "floor": 11
+    },
+    {
+      "id": "ipê-11-05",
+      "label": "Ipê 115",
+      "block": "Ipê",
+      "floor": 11
+    },
+    {
+      "id": "ipê-12-01",
+      "label": "Ipê 121",
+      "block": "Ipê",
+      "floor": 12
+    },
+    {
+      "id": "ipê-12-02",
+      "label": "Ipê 122",
+      "block": "Ipê",
+      "floor": 12
+    },
+    {
+      "id": "ipê-12-03",
+      "label": "Ipê 123",
+      "block": "Ipê",
+      "floor": 12
+    },
+    {
+      "id": "ipê-12-04",
+      "label": "Ipê 124",
+      "block": "Ipê",
+      "floor": 12
+    },
+    {
+      "id": "ipê-12-05",
+      "label": "Ipê 125",
+      "block": "Ipê",
+      "floor": 12
+    },
+    {
+      "id": "ipê-13-01",
+      "label": "Ipê 131",
+      "block": "Ipê",
+      "floor": 13
+    },
+    {
+      "id": "ipê-13-02",
+      "label": "Ipê 132",
+      "block": "Ipê",
+      "floor": 13
+    },
+    {
+      "id": "ipê-13-03",
+      "label": "Ipê 133",
+      "block": "Ipê",
+      "floor": 13
+    },
+    {
+      "id": "ipê-13-04",
+      "label": "Ipê 134",
+      "block": "Ipê",
+      "floor": 13
+    },
+    {
+      "id": "ipê-13-05",
+      "label": "Ipê 135",
+      "block": "Ipê",
+      "floor": 13
+    },
+    {
+      "id": "ipê-14-01",
+      "label": "Ipê 141",
+      "block": "Ipê",
+      "floor": 14
+    },
+    {
+      "id": "ipê-14-02",
+      "label": "Ipê 142",
+      "block": "Ipê",
+      "floor": 14
+    },
+    {
+      "id": "ipê-14-03",
+      "label": "Ipê 143",
+      "block": "Ipê",
+      "floor": 14
+    },
+    {
+      "id": "ipê-14-04",
+      "label": "Ipê 144",
+      "block": "Ipê",
+      "floor": 14
+    },
+    {
+      "id": "ipê-14-05",
+      "label": "Ipê 145",
+      "block": "Ipê",
+      "floor": 14
+    },
+    {
+      "id": "ipê-15-01",
+      "label": "Ipê 151",
+      "block": "Ipê",
+      "floor": 15
+    },
+    {
+      "id": "ipê-15-02",
+      "label": "Ipê 152",
+      "block": "Ipê",
+      "floor": 15
+    },
+    {
+      "id": "ipê-15-03",
+      "label": "Ipê 153",
+      "block": "Ipê",
+      "floor": 15
+    },
+    {
+      "id": "ipê-15-04",
+      "label": "Ipê 154",
+      "block": "Ipê",
+      "floor": 15
+    },
+    {
+      "id": "ipê-15-05",
+      "label": "Ipê 155",
+      "block": "Ipê",
+      "floor": 15
+    },
+    {
+      "id": "ipê-16-01",
+      "label": "Ipê 161",
+      "block": "Ipê",
+      "floor": 16
+    },
+    {
+      "id": "ipê-16-02",
+      "label": "Ipê 162",
+      "block": "Ipê",
+      "floor": 16
+    },
+    {
+      "id": "ipê-16-03",
+      "label": "Ipê 163",
+      "block": "Ipê",
+      "floor": 16
+    },
+    {
+      "id": "ipê-16-04",
+      "label": "Ipê 164",
+      "block": "Ipê",
+      "floor": 16
+    },
+    {
+      "id": "ipê-17-01",
+      "label": "Ipê 171",
+      "block": "Ipê",
+      "floor": 17
+    },
+    {
+      "id": "ipê-17-02",
+      "label": "Ipê 172",
+      "block": "Ipê",
+      "floor": 17
+    },
+    {
+      "id": "ipê-17-03",
+      "label": "Ipê 173",
+      "block": "Ipê",
+      "floor": 17
+    },
+    {
+      "id": "ipê-17-04",
+      "label": "Ipê 174",
+      "block": "Ipê",
+      "floor": 17
+    },
+    {
+      "id": "ipê-18-01",
+      "label": "Ipê 181",
+      "block": "Ipê",
+      "floor": 18
+    },
+    {
+      "id": "ipê-18-02",
+      "label": "Ipê 182",
+      "block": "Ipê",
+      "floor": 18
+    },
+    {
+      "id": "ipê-18-03",
+      "label": "Ipê 183",
+      "block": "Ipê",
+      "floor": 18
+    },
+    {
+      "id": "ipê-18-04",
+      "label": "Ipê 184",
+      "block": "Ipê",
+      "floor": 18
+    },
+    {
+      "id": "ipê-19-01",
+      "label": "Ipê 191",
+      "block": "Ipê",
+      "floor": 19
+    },
+    {
+      "id": "ipê-19-02",
+      "label": "Ipê 192",
+      "block": "Ipê",
+      "floor": 19
+    },
+    {
+      "id": "ipê-19-03",
+      "label": "Ipê 193",
+      "block": "Ipê",
+      "floor": 19
+    },
+    {
+      "id": "ipê-19-04",
+      "label": "Ipê 194",
+      "block": "Ipê",
+      "floor": 19
+    },
+    {
+      "id": "ipê-20-01",
+      "label": "Ipê 201",
+      "block": "Ipê",
+      "floor": 20
+    },
+    {
+      "id": "ipê-20-02",
+      "label": "Ipê 202",
+      "block": "Ipê",
+      "floor": 20
+    },
+    {
+      "id": "ipê-20-03",
+      "label": "Ipê 203",
+      "block": "Ipê",
+      "floor": 20
+    },
+    {
+      "id": "ipê-20-04",
+      "label": "Ipê 204",
+      "block": "Ipê",
+      "floor": 20
+    },
+    {
+      "id": "ipê-21-01",
+      "label": "Ipê 211",
+      "block": "Ipê",
+      "floor": 21
+    },
+    {
+      "id": "ipê-21-02",
+      "label": "Ipê 212",
+      "block": "Ipê",
+      "floor": 21
+    },
+    {
+      "id": "ipê-21-03",
+      "label": "Ipê 213",
+      "block": "Ipê",
+      "floor": 21
+    },
+    {
+      "id": "ipê-21-04",
+      "label": "Ipê 214",
+      "block": "Ipê",
+      "floor": 21
+    },
+    {
+      "id": "ipê-22-01",
+      "label": "Ipê 221",
+      "block": "Ipê",
+      "floor": 22
+    },
+    {
+      "id": "ipê-22-02",
+      "label": "Ipê 222",
+      "block": "Ipê",
+      "floor": 22
+    },
+    {
+      "id": "ipê-22-03",
+      "label": "Ipê 223",
+      "block": "Ipê",
+      "floor": 22
+    },
+    {
+      "id": "ipê-22-04",
+      "label": "Ipê 224",
+      "block": "Ipê",
+      "floor": 22
+    },
+    {
+      "id": "cedro-01-01",
+      "label": "Cedro 11",
+      "block": "Cedro",
+      "floor": 1
+    },
+    {
+      "id": "cedro-01-02",
+      "label": "Cedro 12",
+      "block": "Cedro",
+      "floor": 1
+    },
+    {
+      "id": "cedro-01-03",
+      "label": "Cedro 13",
+      "block": "Cedro",
+      "floor": 1
+    },
+    {
+      "id": "cedro-01-04",
+      "label": "Cedro 14",
+      "block": "Cedro",
+      "floor": 1
+    },
+    {
+      "id": "cedro-01-05",
+      "label": "Cedro 15",
+      "block": "Cedro",
+      "floor": 1
+    },
+    {
+      "id": "cedro-02-01",
+      "label": "Cedro 21",
+      "block": "Cedro",
+      "floor": 2
+    },
+    {
+      "id": "cedro-02-02",
+      "label": "Cedro 22",
+      "block": "Cedro",
+      "floor": 2
+    },
+    {
+      "id": "cedro-02-03",
+      "label": "Cedro 23",
+      "block": "Cedro",
+      "floor": 2
+    },
+    {
+      "id": "cedro-02-04",
+      "label": "Cedro 24",
+      "block": "Cedro",
+      "floor": 2
+    },
+    {
+      "id": "cedro-02-05",
+      "label": "Cedro 25",
+      "block": "Cedro",
+      "floor": 2
+    },
+    {
+      "id": "cedro-03-01",
+      "label": "Cedro 31",
+      "block": "Cedro",
+      "floor": 3
+    },
+    {
+      "id": "cedro-03-02",
+      "label": "Cedro 32",
+      "block": "Cedro",
+      "floor": 3
+    },
+    {
+      "id": "cedro-03-03",
+      "label": "Cedro 33",
+      "block": "Cedro",
+      "floor": 3
+    },
+    {
+      "id": "cedro-03-04",
+      "label": "Cedro 34",
+      "block": "Cedro",
+      "floor": 3
+    },
+    {
+      "id": "cedro-03-05",
+      "label": "Cedro 35",
+      "block": "Cedro",
+      "floor": 3
+    },
+    {
+      "id": "cedro-04-01",
+      "label": "Cedro 41",
+      "block": "Cedro",
+      "floor": 4
+    },
+    {
+      "id": "cedro-04-02",
+      "label": "Cedro 42",
+      "block": "Cedro",
+      "floor": 4
+    },
+    {
+      "id": "cedro-04-03",
+      "label": "Cedro 43",
+      "block": "Cedro",
+      "floor": 4
+    },
+    {
+      "id": "cedro-04-04",
+      "label": "Cedro 44",
+      "block": "Cedro",
+      "floor": 4
+    },
+    {
+      "id": "cedro-04-05",
+      "label": "Cedro 45",
+      "block": "Cedro",
+      "floor": 4
+    },
+    {
+      "id": "cedro-05-01",
+      "label": "Cedro 51",
+      "block": "Cedro",
+      "floor": 5
+    },
+    {
+      "id": "cedro-05-02",
+      "label": "Cedro 52",
+      "block": "Cedro",
+      "floor": 5
+    },
+    {
+      "id": "cedro-05-03",
+      "label": "Cedro 53",
+      "block": "Cedro",
+      "floor": 5
+    },
+    {
+      "id": "cedro-05-04",
+      "label": "Cedro 54",
+      "block": "Cedro",
+      "floor": 5
+    },
+    {
+      "id": "cedro-05-05",
+      "label": "Cedro 55",
+      "block": "Cedro",
+      "floor": 5
+    },
+    {
+      "id": "cedro-06-01",
+      "label": "Cedro 61",
+      "block": "Cedro",
+      "floor": 6
+    },
+    {
+      "id": "cedro-06-02",
+      "label": "Cedro 62",
+      "block": "Cedro",
+      "floor": 6
+    },
+    {
+      "id": "cedro-06-03",
+      "label": "Cedro 63",
+      "block": "Cedro",
+      "floor": 6
+    },
+    {
+      "id": "cedro-06-04",
+      "label": "Cedro 64",
+      "block": "Cedro",
+      "floor": 6
+    },
+    {
+      "id": "cedro-06-05",
+      "label": "Cedro 65",
+      "block": "Cedro",
+      "floor": 6
+    },
+    {
+      "id": "cedro-07-01",
+      "label": "Cedro 71",
+      "block": "Cedro",
+      "floor": 7
+    },
+    {
+      "id": "cedro-07-02",
+      "label": "Cedro 72",
+      "block": "Cedro",
+      "floor": 7
+    },
+    {
+      "id": "cedro-07-03",
+      "label": "Cedro 73",
+      "block": "Cedro",
+      "floor": 7
+    },
+    {
+      "id": "cedro-07-04",
+      "label": "Cedro 74",
+      "block": "Cedro",
+      "floor": 7
+    },
+    {
+      "id": "cedro-07-05",
+      "label": "Cedro 75",
+      "block": "Cedro",
+      "floor": 7
+    },
+    {
+      "id": "cedro-08-01",
+      "label": "Cedro 81",
+      "block": "Cedro",
+      "floor": 8
+    },
+    {
+      "id": "cedro-08-02",
+      "label": "Cedro 82",
+      "block": "Cedro",
+      "floor": 8
+    },
+    {
+      "id": "cedro-08-03",
+      "label": "Cedro 83",
+      "block": "Cedro",
+      "floor": 8
+    },
+    {
+      "id": "cedro-08-04",
+      "label": "Cedro 84",
+      "block": "Cedro",
+      "floor": 8
+    },
+    {
+      "id": "cedro-08-05",
+      "label": "Cedro 85",
+      "block": "Cedro",
+      "floor": 8
+    },
+    {
+      "id": "cedro-09-01",
+      "label": "Cedro 91",
+      "block": "Cedro",
+      "floor": 9
+    },
+    {
+      "id": "cedro-09-02",
+      "label": "Cedro 92",
+      "block": "Cedro",
+      "floor": 9
+    },
+    {
+      "id": "cedro-09-03",
+      "label": "Cedro 93",
+      "block": "Cedro",
+      "floor": 9
+    },
+    {
+      "id": "cedro-09-04",
+      "label": "Cedro 94",
+      "block": "Cedro",
+      "floor": 9
+    },
+    {
+      "id": "cedro-09-05",
+      "label": "Cedro 95",
+      "block": "Cedro",
+      "floor": 9
+    },
+    {
+      "id": "cedro-10-01",
+      "label": "Cedro 101",
+      "block": "Cedro",
+      "floor": 10
+    },
+    {
+      "id": "cedro-10-02",
+      "label": "Cedro 102",
+      "block": "Cedro",
+      "floor": 10
+    },
+    {
+      "id": "cedro-10-03",
+      "label": "Cedro 103",
+      "block": "Cedro",
+      "floor": 10
+    },
+    {
+      "id": "cedro-10-04",
+      "label": "Cedro 104",
+      "block": "Cedro",
+      "floor": 10
+    },
+    {
+      "id": "cedro-10-05",
+      "label": "Cedro 105",
+      "block": "Cedro",
+      "floor": 10
+    },
+    {
+      "id": "cedro-11-01",
+      "label": "Cedro 111",
+      "block": "Cedro",
+      "floor": 11
+    },
+    {
+      "id": "cedro-11-02",
+      "label": "Cedro 112",
+      "block": "Cedro",
+      "floor": 11
+    },
+    {
+      "id": "cedro-11-03",
+      "label": "Cedro 113",
+      "block": "Cedro",
+      "floor": 11
+    },
+    {
+      "id": "cedro-11-04",
+      "label": "Cedro 114",
+      "block": "Cedro",
+      "floor": 11
+    },
+    {
+      "id": "cedro-11-05",
+      "label": "Cedro 115",
+      "block": "Cedro",
+      "floor": 11
+    },
+    {
+      "id": "cedro-12-01",
+      "label": "Cedro 121",
+      "block": "Cedro",
+      "floor": 12
+    },
+    {
+      "id": "cedro-12-02",
+      "label": "Cedro 122",
+      "block": "Cedro",
+      "floor": 12
+    },
+    {
+      "id": "cedro-12-03",
+      "label": "Cedro 123",
+      "block": "Cedro",
+      "floor": 12
+    },
+    {
+      "id": "cedro-12-04",
+      "label": "Cedro 124",
+      "block": "Cedro",
+      "floor": 12
+    },
+    {
+      "id": "cedro-12-05",
+      "label": "Cedro 125",
+      "block": "Cedro",
+      "floor": 12
+    },
+    {
+      "id": "cedro-13-01",
+      "label": "Cedro 131",
+      "block": "Cedro",
+      "floor": 13
+    },
+    {
+      "id": "cedro-13-02",
+      "label": "Cedro 132",
+      "block": "Cedro",
+      "floor": 13
+    },
+    {
+      "id": "cedro-13-03",
+      "label": "Cedro 133",
+      "block": "Cedro",
+      "floor": 13
+    },
+    {
+      "id": "cedro-13-04",
+      "label": "Cedro 134",
+      "block": "Cedro",
+      "floor": 13
+    },
+    {
+      "id": "cedro-13-05",
+      "label": "Cedro 135",
+      "block": "Cedro",
+      "floor": 13
+    },
+    {
+      "id": "cedro-14-01",
+      "label": "Cedro 141",
+      "block": "Cedro",
+      "floor": 14
+    },
+    {
+      "id": "cedro-14-02",
+      "label": "Cedro 142",
+      "block": "Cedro",
+      "floor": 14
+    },
+    {
+      "id": "cedro-14-03",
+      "label": "Cedro 143",
+      "block": "Cedro",
+      "floor": 14
+    },
+    {
+      "id": "cedro-14-04",
+      "label": "Cedro 144",
+      "block": "Cedro",
+      "floor": 14
+    },
+    {
+      "id": "cedro-14-05",
+      "label": "Cedro 145",
+      "block": "Cedro",
+      "floor": 14
+    },
+    {
+      "id": "cedro-15-01",
+      "label": "Cedro 151",
+      "block": "Cedro",
+      "floor": 15
+    },
+    {
+      "id": "cedro-15-02",
+      "label": "Cedro 152",
+      "block": "Cedro",
+      "floor": 15
+    },
+    {
+      "id": "cedro-15-03",
+      "label": "Cedro 153",
+      "block": "Cedro",
+      "floor": 15
+    },
+    {
+      "id": "cedro-15-04",
+      "label": "Cedro 154",
+      "block": "Cedro",
+      "floor": 15
+    },
+    {
+      "id": "cedro-16-01",
+      "label": "Cedro 161",
+      "block": "Cedro",
+      "floor": 16
+    },
+    {
+      "id": "cedro-16-02",
+      "label": "Cedro 162",
+      "block": "Cedro",
+      "floor": 16
+    },
+    {
+      "id": "cedro-16-03",
+      "label": "Cedro 163",
+      "block": "Cedro",
+      "floor": 16
+    },
+    {
+      "id": "cedro-16-04",
+      "label": "Cedro 164",
+      "block": "Cedro",
+      "floor": 16
+    },
+    {
+      "id": "cedro-17-01",
+      "label": "Cedro 171",
+      "block": "Cedro",
+      "floor": 17
+    },
+    {
+      "id": "cedro-17-02",
+      "label": "Cedro 172",
+      "block": "Cedro",
+      "floor": 17
+    },
+    {
+      "id": "cedro-17-03",
+      "label": "Cedro 173",
+      "block": "Cedro",
+      "floor": 17
+    },
+    {
+      "id": "cedro-17-04",
+      "label": "Cedro 174",
+      "block": "Cedro",
+      "floor": 17
+    },
+    {
+      "id": "cedro-18-01",
+      "label": "Cedro 181",
+      "block": "Cedro",
+      "floor": 18
+    },
+    {
+      "id": "cedro-18-02",
+      "label": "Cedro 182",
+      "block": "Cedro",
+      "floor": 18
+    },
+    {
+      "id": "cedro-18-03",
+      "label": "Cedro 183",
+      "block": "Cedro",
+      "floor": 18
+    },
+    {
+      "id": "cedro-18-04",
+      "label": "Cedro 184",
+      "block": "Cedro",
+      "floor": 18
+    },
+    {
+      "id": "cedro-19-01",
+      "label": "Cedro 191",
+      "block": "Cedro",
+      "floor": 19
+    },
+    {
+      "id": "cedro-19-02",
+      "label": "Cedro 192",
+      "block": "Cedro",
+      "floor": 19
+    },
+    {
+      "id": "cedro-19-03",
+      "label": "Cedro 193",
+      "block": "Cedro",
+      "floor": 19
+    },
+    {
+      "id": "cedro-19-04",
+      "label": "Cedro 194",
+      "block": "Cedro",
+      "floor": 19
+    },
+    {
+      "id": "cedro-20-01",
+      "label": "Cedro 201",
+      "block": "Cedro",
+      "floor": 20
+    },
+    {
+      "id": "cedro-20-02",
+      "label": "Cedro 202",
+      "block": "Cedro",
+      "floor": 20
+    },
+    {
+      "id": "cedro-20-03",
+      "label": "Cedro 203",
+      "block": "Cedro",
+      "floor": 20
+    },
+    {
+      "id": "cedro-20-04",
+      "label": "Cedro 204",
+      "block": "Cedro",
+      "floor": 20
+    },
+    {
+      "id": "cedro-21-01",
+      "label": "Cedro 211",
+      "block": "Cedro",
+      "floor": 21
+    },
+    {
+      "id": "cedro-21-02",
+      "label": "Cedro 212",
+      "block": "Cedro",
+      "floor": 21
+    },
+    {
+      "id": "cedro-21-03",
+      "label": "Cedro 213",
+      "block": "Cedro",
+      "floor": 21
+    },
+    {
+      "id": "cedro-21-04",
+      "label": "Cedro 214",
+      "block": "Cedro",
+      "floor": 21
+    },
+    {
+      "id": "cedro-22-01",
+      "label": "Cedro 221",
+      "block": "Cedro",
+      "floor": 22
+    },
+    {
+      "id": "cedro-22-02",
+      "label": "Cedro 222",
+      "block": "Cedro",
+      "floor": 22
+    },
+    {
+      "id": "cedro-22-03",
+      "label": "Cedro 223",
+      "block": "Cedro",
+      "floor": 22
+    },
+    {
+      "id": "cedro-22-04",
+      "label": "Cedro 224",
+      "block": "Cedro",
+      "floor": 22
+    }
+  ]
+}
