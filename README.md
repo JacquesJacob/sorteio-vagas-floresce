@@ -2,6 +2,9 @@
 
 Primeira versao de um sistema offline para sorteio automatico das vagas do Condominio Floresce.
 
+<img width="1131" height="704" alt="image" src="https://github.com/user-attachments/assets/5e1d2f3d-d57d-42ff-ae27-f94c7ec369c0" />
+
+
 ## O que esta pronto
 
 - acesso direto, sem login
